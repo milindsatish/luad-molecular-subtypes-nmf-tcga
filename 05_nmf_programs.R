@@ -1,15 +1,12 @@
 # ============================================================
 # Project: TCGA-LUAD Molecular Subtyping with NMF
-# Script: 04_nmf_k3_to_interpretation.R
 #
 # Purpose:
 #   1. Run final NMF factorization at k = 3
 #   2. Derive tumor subtype assignments
 #   3. Extract gene programs (W matrix)
 #   4. Save all outputs for downstream biology & survival
-#
-# Author: <Milind Gadgil>
-# Date: <2 January 2026>
+
 # ============================================================
 
 
