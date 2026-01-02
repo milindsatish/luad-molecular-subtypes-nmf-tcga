@@ -15,6 +15,6 @@ nmf_res <- nmf(
   nrun = 5   # reduced to be faster
 )
 
-# SAVE IT IMMEDIATELY
+# SAVE
 saveRDS(nmf_res, "data/processed/LUAD_nmf_all.rds")
 
