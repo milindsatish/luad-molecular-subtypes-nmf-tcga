@@ -1,6 +1,5 @@
 # ============================================================
 # Project: LUAD Integrative Genomics
-# Script: 01_load_qc.R
 # Purpose: Load TCGA-LUAD expression and survival data,
 #          harmonize sample IDs, and save clean datasets
 # ============================================================
