@@ -1,16 +1,12 @@
 # ============================================================
 # Project: TCGA-LUAD Molecular Subtyping with NMF
-# Script: 04_nmf_k3_and_pathway_enrichment.R
-#
+# 
 # Purpose:
 #   1. Run final NMF factorization at k = 3
 #   2. Assign tumors to dominant NMF programs
 #   3. Extract gene programs (W matrix)
 #   4. Perform pathway enrichment using MSigDB Hallmark gene sets
 #   5. Save all outputs for downstream interpretation
-#
-# Author: <Your Name>
-# Date: <Date>
 # ============================================================
 
 
