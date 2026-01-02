@@ -1,20 +1,12 @@
 # ============================================================
 # Project: TCGA-LUAD Molecular Subtyping with NMF
-#
 # Purpose:
 #   1. Run final NMF factorization at k = 3
 #   2. Derive tumor subtype assignments
 #   3. Extract gene programs (W matrix)
 #   4. Save all outputs for downstream biology & survival
-
 # ============================================================
 
-
-# -------------------------------
-# 0. Clean start and libraries
-# -------------------------------
-
-rm(list = ls())
 library(NMF)
 library(tidyverse)
 
