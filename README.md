@@ -76,6 +76,8 @@ NMF was run using the Brunet algorithm across ranks *k* = 2–6 with multiple ra
 - **k = 3 programs** provided the best balance of stability and interpretability
 - Tumors were assigned to subtypes based on their dominant program activity
 
+Figure 1. Program activity heatmap of NMF-defined transcriptional programs in TCGA lung adenocarcinoma.
+Heatmap shows relative activity of three non-negative matrix factorization (NMF)–derived transcriptional programs across LUAD tumors. Rows correspond to transcriptional programs and columns correspond to individual tumors. Values represent row-scaled program activity scores (H matrix), highlighting relative program activation across samples. Tumors exhibit clear dominant program patterns, consistent with biologically distinct invasive/EMT-like, proliferative, and immune-associated tumor states.
 ---
 
 ## Biological Interpretation
@@ -102,9 +104,10 @@ These programs correspond to biologically interpretable tumor states:
 
 ### Figures
 
-- **Figure 1:** Kaplan–Meier survival curves comparing three NMF-defined LUAD subtypes
-- **Figure 2:** Kaplan–Meier survival curves comparing Program 1 vs Programs 2+3
-- **Figure 3:** Forest plot summarizing Cox proportional hazards model for Program 1 activity
+- **Figure 1:** Program activity heatmap (H matrix) showing relative activation of three NMF-derived transcriptional programs across TCGA LUAD tumors.
+- **Figure 2:** Kaplan–Meier survival curves comparing three NMF-defined LUAD subtypes.
+- **Figure 3:** Kaplan–Meier survival curves comparing Program 1 vs Programs 2+3.
+- **Figure 4:** Cox proportional hazards model assessing the association between continuous Program 1 activity (H score) and overall survival in TCGA LUAD. Hazard ratios (HR) with 95% confidence intervals are shown. Program 1 activity shows a directionally increased hazard consistent with invasive biology, though the association is not statistically significant (p = 0.28).
 
 ### Kaplan–Meier Analysis
 
@@ -145,7 +148,7 @@ These results suggest that transcriptional programs collectively capture biologi
 
 ## Reproducibility
 
-- All analyses performed in R
+- All analyses performed in R version 4.5.2 (2025-10-31)
 - Scripts are modular and numbered by analysis stage
 - Intermediate processed data objects saved as RDS files
 - Figures generated programmatically and saved to disk
